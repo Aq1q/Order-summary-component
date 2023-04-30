@@ -11,23 +11,33 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <div id="container">
-    <div id="image"></div>
+    <div id="hero">
+      <img src="./images/illustration-hero.svg" alt="Hero" id="image">
+    </div>
     <div id="summary">
       <h1>Order Summary</h1>
       <p>You can listen to milions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
     </div>
-    <div>
-      <div id="icon"></div>
-      <div id="text">
-        <h3>Annual Plan</h3>
-        <p>$59.99/year</p>
+    <div id="plan">
+      <div id="plan-box">
+        <div id="icon">
+          <img src="./images/icon-music.svg" alt="Icon">
+        </div>
+        <div id="text">
+          <h3>Annual Plan</h3>
+          <p>$59.99/year</p>
+        </div>
+        <div id="link"><a href="#">Change</a></div>
       </div>
-      <div><a href="">Change</a></div>
     </div>
-    <div>
+    <div id="buttons">
       <button id="proceed">Proceed to Payment</button>
       <button id="cancel">Cancel order</button>
     </div>
