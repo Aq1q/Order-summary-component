@@ -151,9 +151,22 @@ body {
 @media screen and (min-width: 1440px) {
     #container {
         width: 30%;
+        max-width: 432px;
+        }
+    #summary {
+        p{
+            align-self: center;
+            width: 80%;
+        }
     }
     #buttons {
         height: 20%;
     }
 
+}
+
+.attribution {
+    position: absolute;
+    bottom: 5px;
+    font-size: 0.8em;
 }
