@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot.jpg)
+![](./Screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Code](https://github.com/Aq1q/Order-summary-component)
+- Live Site URL: [Github Pages](https://aq1q.github.io/Order-summary-component/)
 
 ## My process
 
